@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+    <html lang="nb">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Oblig 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="stilark2.0.css" />
+        <script src="main.js"></script>
+    </head>
+    <html lang="nb">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Oblig 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="menystyle.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="bakgrunn">
+            <header>
+                <h1 class="tittel">Oblig 1 Ludvik Svarstad</h1>
+                <div class="menyBar">
+                    <a href="index.html">Hjem</a>
+                    <a href="index2.0.html">Oppgave 1</a>
+                    <a href="artikkel.html">Oppgave 2</a>
+                    <a href="innhold-vs-design.html">Oppgave 3</a>
+                    <a href="webserver.html">Oppgave 4</a>
+                    <a href="semantikk.html">Oppgave 5</a>
+                    <a href="stilark.html">Oppgave 6</a>
+                    <a href="box-modellen.html">Oppgave 7</a>
+                </div> 
+            </header>
+            <main class="mainContainer">
+                <article>
+                
+                    <h2>Semantiske tagger</h2>
+                    <h3>21.09.2018</h3>
+                    
+                    <div class="bilde">
+                        <img src="semantikk.jpg" alt="bilde av koder og semantikk">
+                        <figcaption>Foto:QROSS</figcaption>
+                    </div>  
+
+                    <h4>Semantiske tagger bidrar til en bedre struktur i på nettsider, men hvilke bruker vi?</h4>
+                    <p>Med innføringen av HTML5 ble det innført en rekke semantiske tagger som bidro til å skape en bedre oversikt over nettsider. Fortalt på en annen måte er at de brakte ro til en form for kaos. Disse semantiske elementene gjorde det enklere for både utviklere av nettsidene, for søkemotorer og for brukerene av nettsidene. </p>
+
+                    <h4>Hva er semantikk</h4>
+                    <p>HTML 5 introduserte et helt nytt sett med elementer som gjør det enklere å strukturere nettsider. På mange websider på nettet inneholder det en viss struktur slik som topptekst, bunntekst, navigasjon og inndeling i kolonner. Det er ganske vanlig for webutvilkere å dele opp disse inn i DIV elementer og gi hver av disse en beskrivende id eller klasse. Dette gjør det enkelt å indentifisere og manipulere deler av siden med feks Javascript eller CSS. Bruken av semantiske elementer har derfor mye å si om koden er god eller dårlig.</p>
+                    <p>I denne delen av artikkelen skal jeg forklare kort om hvert element sin funksjon og hva de betyr.</p>
+                    
+                    <h4>Header</h4>
+                    <dd>Header taggen betegner toppteksten på en nettside. Her kan man variere sterkt om hva som ligger der, så er det oftest en tittel, en logo eller som oftest begge. Det som skal være øverst på en side blir plassert i header taggen. Den trenger ikke bare å brukes som en topptekst for en side men kan også brukes som toptekst på artikkler.</dd>
+                    
+                    <h4>Footer</h4>
+                    <dd>Dette er da motsettningen til en header. Denne taggen er betegnelsen for det som skal bli plassert på bunnen av siden aka bunnteksten. I denne plasseres det ofte informasjon om besøksadresser, kontaktinformasjon, hvem som laget nettsiden osv.</dd>
+                    
+                    <h4>NAV</h4>
+                    <dd>Nav-taggen er det som brukes til sidens navigasjon. Man kan ha mange forskjellige typer av navigasjon på en side, men de fleste nettsider bruker headeren til å plassere hovednavigasjonen på.</dd>
+                    
+                    <h4>Main</h4>
+                    <dd>Main taggen er ganske selvforklarende, her skal da det man ser på som hoved innholdet på siden din ligge. Det man hovedsakelig vil at en bruker skal se plasseres i denne taggen, så den inneholder da ofte artikler, salg osv.</dd>
+                    
+                    <h4>Article</h4>
+                    <dd>Denne taggen er også ganske selvforklarende. Denne taggen skal inneholde en artikkel som skal da som regel bare inneholde ett tema. Eksempler på artikkler kan være blogginlegg, nyhetsartikler.</dd>
+                    
+                    <h4>Section</h4>
+                    <dd>Section taggen går ut på at den skal dele opp artikkler inn i mindre deler, men den kan også dele artikkler inn i kategoriske seksjoner</dd>
+                    
+                    <h4>Aside</h4>
+                    <dd>Elementet Aside er spesielt godt egnet for menyer som er plassert ved siden av innholdet i dokumentet. Det er da et element som markerer innhold som kan separeres, oftest blir det brukt som et side panel</dd>
+                    
+                    <p>Det finnes også andre mindre elementer som bidrar til å bygge en bedre struktur på nettsiden.</p>
+
+                    <h4>Mark</h4>
+                    <dd>Mark taggen brukes til å markere viktig informasjon som kan stå i en tekst. Som feks en markerings penn.</dd>
+
+                    <h4>Ul, Ol og li</h4>
+                    <dd>Ul,Ol og li er elementer som må til for å lage en liste. Ul står for uorganisert liste, Ol står for organisert liste, og li står for listeelement. Disse brukes da til å lage lister, med enten kulepunkter eller nummererte punkter.</dd>
+
+                    <h3>Semantiske tagger > div og span</h3>
+                    <p>Før HTML5 var det vanlig for webutviklere å benytte seg av taggene &lt;div&gt; og &lt;span&gt; for å dele opp seksjonene i en nettside. Men med HTML 5 så er dette lenger ikke anbefalt siden det har en mangel på struktur, og at selve taggene ikke tilførte noen mening til nettsidene. Man måtte derfor designere en klasse eller en id til hver &lt;div&gt; eller &lt;span&gt; for å ha noen hensikt. Derimot i HTML 5 så har de nye semantiske elementene en verdi i seg selv. Dette gjør det da enklere for webutviklere å navigere seg i nettsidens kode, samt lettere for søkemotorers crawlere å lese nettsidens struktur</p>
+                </article>
+            </main>
+            <footer>
+                <p>2018</p>
+                <p>Ludvik Svarstad</p>
+                <p>ludviks@hiof.no</p>
+            </footer>
+        </div>
+    </body>
+    </html>

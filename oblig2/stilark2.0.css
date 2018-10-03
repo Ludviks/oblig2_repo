@@ -1,0 +1,151 @@
+
+/*For menyen og bakgrunnen av siden*/
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body ,html {
+    height: 100%;
+    margin: 0;
+}
+
+.bakgrunn {
+    background-image: url("bakgrunnsbilde.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tittel{
+    text-align: center;
+    margin-top: 0;
+}
+
+.menyBar {
+    overflow: hidden;
+    background-color: cadetblue;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+
+.menyBar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+.menyBar a:hover {
+    background-color: lightblue;
+    color: black;
+    text-decoration: underline;
+}
+/*For artikklene*/
+.opg {
+    display: inline-block;
+    padding-top: 0;
+    max-width: 40%;
+    padding-left: 150px;
+    margin-bottom: 50px;
+
+}
+
+.mainContainerhovedside {
+    margin-top: 70px;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.mainContainer {
+    margin-top: 70px;
+    text-align: left;
+    max-width: 1000px;
+    padding-left: 40px;
+}
+
+.knapp {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: cadetblue;
+    text-transform: uppercase;
+    box-shadow: 2px 2px lightblue;
+}
+
+article img {
+    margin: 15px 15px 15px 15px;
+    float: right;
+    width: 50%;
+}
+
+figcaption {
+    margin: 0px 15px 15px 15px;
+    float: right;
+    width: 50%;
+}
+
+article {
+    width: 740px;
+}
+
+/*for bunnen av siden*/
+footer {
+    clear: both;
+    height: 90px;
+    background-color: gray;
+    color: #cccccc;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 100%;
+    position: relative;
+   
+}
+/*For box-modell oppgaven*/
+.box1 {
+    width: 700px;
+    height: 30px;
+    padding: 20px;
+    background-color: blueviolet;
+    margin: 40px;
+    border:dotted hotpink 30px;
+}
+
+.box2 {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: white;
+    border: solid maroon 10px;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    border: solid khaki 3px;
+}
+
+.box4 {
+    margin: 20px;
+    width: 350px;
+    height: 175px;
+    overflow: scroll;
+}
+
+.box5 {
+    padding: 50px;
+    max-width: 1000px;
+    max-height: 1000px;
+    border-radius: 50px;
+    background-color: deeppink;
+    border-style: double;
+    text-align: center;
+    box-shadow: 10px 30px 14px 10px cyan;
+
+}
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Oblig 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="stilark2.0.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="bakgrunn">
+        <header>
+            <h1 class="tittel">Oblig 1 Ludvik Svarstad</h1>
+            <div class="menyBar">
+                <a href="index.html">Hjem</a>
+                <a href="index2.0.html">Oppgave 1</a>
+                <a href="artikkel.html">Oppgave 2</a>
+                <a href="innhold-vs-design.html">Oppgave 3</a>
+                <a href="webserver.html">Oppgave 4</a>
+                <a href="semantikk.html">Oppgave 5</a>
+                <a href="stilark.html">Oppgave 6</a>
+                <a href="box-modellen.html">Oppgave 7</a>
+            </div> 
+        </header>
+        <main class="mainContainer">
+            <article>
+               
+                <h2>Webservere (oppgave4)</h2>
+                <h3>18.09.2018</h3>
+                <h4>Hva er en Webserver?</h4>
+                <p>En webserver er et program som lagrer og utleverer data på internett. Dataen hentes gjennom en nettleser via protokollene HTTP eller HTTPS. En Web browser eller en web crawler, etablerer kommunikasjon mellom server og PC clienten, gjennom å legge ut en 
+                etterspørsel på en spesifikk side/enhet gjennom HTTP og serveren svarer med enten siden/enheten eller en error melding, hvis siden/enheten ikke finnes. Enklere fortalt, når du åpner en browser og søker opp en nettside, da åpner browseren en kommunikasjonslinje med 
+                serveren. Hvis du skal logge på en nett side, så vil serveren som har dataen for den nettsiden dra ut filene fra lagringen og sende det tilbake til deg, og da kommer det an på størrelsen på filen på hvor fort du får den.
+                Disse sidene inneholder da enten HTML documenter, bilder, text, scripts osv.</p>
+               
+                
+                <h4>Hva brukes en Webserver til?</h4>
+                <p>Webservere brukes vanlig til å lagre, behandle og levere nett sider til brukeren. Webservere er ikke bare begrenset til nettet men kan også være lokalt implementert i forskjellige enheter, som feks printere, rutere eller webcams.</p>
+               
+                <div class="bilde">
+                    <img src="serverfarm.jpg" alt="server farm">
+                    <figcaption>FOTO: daily mail. Dette er en server farm for delte servere</figcaption>
+                </div>
+
+                <h4>Hvilke forskjellige typer webserver finnes det?</h4>
+                <p>Det finnes flere forskjellige typer webservere. De fire mest populære typene er Apache, Microsoft IIS, Lighttpd og Jigsaw. Det finnes også andre typer webservere som feks NGNIX.</p>
+                <h5>Apache</h5>
+                <p>Apache er den mest populære brukt av alle type webservere, den er utviklet av Apache Foundation. Det er en "Open source software" som kan bli instalert på flere forskjellige platformer inkludert Linux, Windows, UNIX, MAC OSX osv. 
+                Apache servere er den mest populære fordi de er ekstremt lette å modifisere, og inneholder en struktur. Siden det er en "open source" plattform så kan man lett legge til egne moduler og endre på dem som du føler for.</p>
+                <h5>IIS Webserver</h5>
+                <p>IIS står for "Internet Information System". Det er en høy kvalitets webserver som er utviklet av Microsoft. Denne webserveren kjører på en programvare som heter Windows NT/2000 og 2003 platformer. Samtidig som den deler like funksjonaliteter som Apache, så er det ikke en open source software.
+                Som da betyr at du ikke kan modifisere den eller legge til dine egne moduler. IIS støtter HTTP, HTTPS, FTP, FTPS, SMTP og NNTP</p>
+                <h5>Lighttpd</h5>
+                <p>Lighttpd er også en open source webserver i likhet med Apache. Den var designet for fart. Lighttpd bruker mindre strøm og kan brukes på flere forskjellige opperativ systemer, inkludert Windows, Mac OSX, Linux osv.</p>
+                <h5>Jigsaw</h5>
+                <p>Dette er en gratis webserver som også er open source. I motsetning til de andre webserverene så var ikke Jigsaw designet for å brukes av store firmaer men heller for å teste diner egne applikasjoner. Originalt så var det laget for som en demonstrasjon av teknologi enn et ferdig produkt.
+                Jigsaw er en av de sterkeste webserverene som er tilgjengelig på markedet.</p>
+                <h5>NGINX</h5>
+                <p>NGINX er en gratis webserver som har en åpen kildekode. Forskjellen mellom NGINX og andre servere er ved at den bruker noe som heter et "Scalable event driven system" enn feks Apache som da feks bruker noe som heter et "Thread system". Dette betyr at NGINX bruker
+                 mindre minne i forhold til andre servere.</p>
+
+                <h4>Forskjell mellom delte-, dedikerte-, og cloud-servere.</h4>
+                <h5>Delte servere</h5>
+                <p>Delte servere fungerer ved at flere nettsteder og firmaer deler en server. Dette er derfor en mer økonomisk løsning. Derfor velges dette ofte av nye eller små firmaer.</p>
+                <h5>Dedikerte Servere</h5>
+                <p>En dedikert server er et mer fysisk produkt i forhold til delte servere. Måten den fungerer på er ved at en kjøper en server som da er enten ment for ett firma eller lignende. Dette er jo da mer kostbart noe som betyr at de er heller de større firmaene 
+                som kjøper dem. Ved å da kjøpe dette så lagres det lokalt, feks i et dedikert server rom. Dette betyr også da at man er avhengig av en IT-avdeling som da skal vedlike holde serverene.</p>
+                <h5>Cloud-Servere</h5>
+                <p>I de siste årene så har cloud-servere blitt mer og mer populære. Det går ut på at da data er lagret i "skyen" altså at data ikke blir lagret på fysiske maskiner. Fordeler med cloudservere er det at det er sikkrere å lagre data ved at en ikke trenger å bekymre seg for 
+                feks oversvømmelser eller branner som kan føre til at man serverene blir ødelagt og man mister dataen.</p>
+
+                <p>Noen av mine kilder</p>
+                <ul>
+                    <li><a href="https://economictimes.indiatimes.com/definition/web-server">Economic times</a></li>
+                    <li><a href="https://www.techopedia.com/definition/4928/web-server">Technopedia</a></li>
+                    <li><a href="https://medium.com/@samdias9792/a-look-at-web-servers-what-it-is-different-types-44d9ce8c0694">Medium</a></li>
+                </ul>
+            </article>
+        </main>
+        <footer>
+            <p>2018</p>
+            <p>Ludvik Svarstad</p>
+            <p>ludviks@hiof.no</p>
+        </footer>
+    </div>
+</body>
+</html>

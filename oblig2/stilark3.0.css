@@ -1,0 +1,83 @@
+img{
+    max-width: 100%;
+    
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header"
+    "menu menu menu menu menu"
+    "main main main features features"
+    "footer footer footer footer footer";
+    grid-gap: 0px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.top{
+    background-image: url("bakgrunnsbilde.jpg");
+    grid-area: header;
+    display: grid;
+    color: antiquewhite;
+    text-align: center;
+    grid-gap: 20px;
+}
+.meny{
+    grid-area: menu;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 20px;
+    background-color: lavender;
+}
+.meny a{
+    float: left;
+    display: grid;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.meny a:hover{
+    background-color: black;
+    color: lavender;
+    text-decoration: underline;
+}
+main{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;  
+}
+aside{
+    display: grid;
+    grid-area: features;
+    grid-gap: 20px;
+    background-color: lavenderblush;
+}
+
+footer{
+    grid-area: footer;
+    display: grid;
+    padding: 20px 10px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: lavender;
+    text-align: center;
+}
+footer a{
+    color: black;
+    padding-top: 1em;
+}
+.knapp{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: lavender;
+    text-transform: uppercase;
+    box-shadow: 2px 2px #999;
+}
+.eksempel{
+    background-color: #999;
+}
